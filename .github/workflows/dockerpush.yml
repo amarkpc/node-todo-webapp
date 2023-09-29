@@ -3,7 +3,7 @@ on: [push]
 jobs:
 
   build:
-    name: Build
+    name: CI-CD
     runs-on: ubuntu-latest
     steps:
     - name: executing remote ssh commands using password
